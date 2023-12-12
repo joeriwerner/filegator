@@ -2,7 +2,7 @@
   <div>
     <div class="modal-card">
       <div class="modal-card-body preview">
-        <strong>{{ currentItem.name }}</strong>
+        <strong>{{currentItem.path}}{{ currentItem.name }}</strong>
         <div class="columns is-mobile">
           <div class="column mainbox">
             <img :src="imageSrc(currentItem.path)" class="mainimg">
